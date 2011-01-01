@@ -17,9 +17,6 @@ h2 {
 	font: italic 40px League Gothic;
 	text-transform: uppercase;
 	margin: 0 0 20px 0;
-}
-
-h2 a {
 	font: italic 40px League Gothic;
 	text-decoration: none;
 	color: #aaa;
@@ -37,12 +34,66 @@ h3 {
 	text-shadow: 3px 0px 0px #ccc;
 }
 
-p#tip {
-	font: italic 12px Helvetica, Arial, sans-serif;
-	text-align: center;
+p {
+	font: 15px Helvetica, Arial, sans-serif;
+	text-align: left;
 	position: relative;
 	bottom: 20px;
-	color: #888;
+	color: #444;
+	width: 630px;
+	margin: 0 auto 10px auto;
+}
+
+span#read_more, span#readless {
+	font: 11px Helvetica;
+	text-decoration: none;
+	background-color: #aaa;
+	color: #fff;
+	padding: 2px 4px 2px 4px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+span#read_more:hover, span#read_less:hover {
+	background-color: #888;
+}
+
+p#more_story {
+	display: none;
+}
+
+p.center {
+	
+}
+
+p#instructions {
+	position: relative;
+	top: 25px;
+	text-align: center;
+	background-color: #fff;
+	color: #af0d0f;
+	border-radius: 5px;
+	width: 300px;
+}
+
+div.signup_div {
+	width: 250px;
+	margin: 0 auto 0 auto;
+}
+
+a#signup {
+	text-align: center;
+	height: 40px;
+	padding: 4px 8px 4px 8px;
+	background-color: #af0d0f;
+	color: #fff;
+	font: bold 17px Helvetica;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+a#signup:hover {
+	background-color: #ed1315
 }
 
 img#screenshot {
@@ -50,30 +101,26 @@ img#screenshot {
 	margin: 0 0 0 0;
 }
 
-img#screenshot:hover {
-	opacity: .50;
-}
-
 #signup_form {
 	padding: 20px;
 }
 
 input#goal {
-		border: none;
-		border-bottom: 3px solid #444;
+		border: 3px solid #444;
 		font: 30px League Gothic;
 		text-shadow: none;
 		text-transform: uppercase;
 		color: #af0d0f;
 		width: 358px;
+		height: 40px;
 		position: relative;
-		bottom: 10px;
+		bottom: 20px;
 }
 
 span.goal {
 	border: none;
 	border-bottom: 3px solid #444;
-	font: 50px League Gothic;
+	font: 55px League Gothic;
 	text-shadow: none;
 	text-transform: uppercase;
 	color: #af0d0f;
@@ -83,7 +130,7 @@ span.goal {
 }
 
 input#submit {
-	background-color: #eee;
+	background-color: #fff;
 	width: 200px;
 	height: 35px;
 	color: #af0d0f;
@@ -92,6 +139,7 @@ input#submit {
 	border: none;
 	-webkit-border-radius: 5px;
 	cursor: pointer;
+	text-decoration: underline;
 }
 
 input#submit:hover {

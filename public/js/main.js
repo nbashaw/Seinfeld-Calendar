@@ -5,29 +5,29 @@ $(function(){
 		$(this).toggleClass('done');
 	});
 	
-	// Fancybox iFrame on home page
-	$("#lifehacker").fancybox({
-					'width'				: '75%',
-					'height'			: '75%',
-					'autoScale'			: false,
-					'transitionIn'		: 'none',
-					'transitionOut'		: 'none',
-					'type'				: 'iframe'
+	// Homepage read more
+	$('span#read_more').click(function(){
+		$('p#more_story').slideToggle('slow', function(){
+			// change text to read less.
+		});
 	});
+	
+	// Homepage read less
+
 	
 	
 	// Homepage screenshot hover
-	$('img').hover(
-		function(){
-			$('h1').replaceWith("<h1>Let's Go!</h1>")
-		},
-		function(){
-			$('h1').replaceWith("<h1>Track Your Progress</h1>")
-		}
-		);
+//	$('img').hover(
+//		function(){
+//			$('h1').replaceWith("<h1>Let's Go!</h1>")
+//		},
+//		function(){
+//			$('h1').replaceWith("<h1>Track Your Progress</h1>")
+//		}
+//		);
 	
 	
-	// Homepage screenshot fancybox
+	// Homepage screenshot signup fancybox
 	$('#signup').fancybox({
 		'titlePosition'		: 'inside',
 		'transitionIn'		: 'none',
