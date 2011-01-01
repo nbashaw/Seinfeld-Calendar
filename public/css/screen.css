@@ -1,0 +1,135 @@
+div.container {
+	width: 960px;
+	margin: 0 auto 0 auto;
+}
+
+h1 {
+	text-align: center;
+	font: 100px League Gothic;
+	color: #444;
+	text-transform: uppercase;
+	text-shadow: 3px 0px 0px #ccc;
+	margin: 20px 0 0 0;
+}
+
+h2 {
+	text-align: center;
+	font: italic 40px League Gothic;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+}
+
+h2 a {
+	font: italic 40px League Gothic;
+	text-decoration: none;
+	color: #aaa;
+}
+
+h2 a:hover {
+	text-decoration: underline;
+}
+
+h3 {
+	text-align: center;
+	font: 70px League Gothic;
+	color: #444;
+	text-transform: uppercase;
+	text-shadow: 3px 0px 0px #ccc;
+}
+
+p#tip {
+	font: italic 12px Helvetica, Arial, sans-serif;
+	text-align: center;
+	position: relative;
+	bottom: 20px;
+	color: #888;
+}
+
+img#screenshot {
+	width: 100%;
+	margin: 0 0 0 0;
+}
+
+img#screenshot:hover {
+	opacity: .50;
+}
+
+#signup_form {
+	padding: 20px;
+}
+
+input#goal {
+		border: none;
+		border-bottom: 3px solid #444;
+		font: 30px League Gothic;
+		text-shadow: none;
+		text-transform: uppercase;
+		color: #af0d0f;
+		width: 358px;
+		position: relative;
+		bottom: 10px;
+}
+
+span.goal {
+	border: none;
+	border-bottom: 3px solid #444;
+	font: 50px League Gothic;
+	text-shadow: none;
+	text-transform: uppercase;
+	color: #af0d0f;
+	width: 458px;
+	position: relative;
+	bottom: 20px;
+}
+
+input#submit {
+	background-color: #eee;
+	width: 200px;
+	height: 35px;
+	color: #af0d0f;
+	font: 25px League Gothic;
+	text-transform: uppercase;
+	border: none;
+	-webkit-border-radius: 5px;
+	cursor: pointer;
+}
+
+input#submit:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+table {
+	width: 100%;
+}
+
+tr {
+	height: 40px;
+}
+
+td.month {
+	font: 20px League Gothic;
+	color: #444;
+	text-transform: uppercase;
+	text-shadow: 1px 0px 0px #ccc;
+}
+
+td.day {
+	font: 20px League Gothic;
+	width: 25px;
+	padding: 2px;
+	height: 25px;
+}
+
+td.done {
+	background-color: #af0d0f;
+	color: #fff;
+}
+
+td.day:hover {
+	background-color: #ccc;
+}
+
+
+
+
