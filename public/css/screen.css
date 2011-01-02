@@ -130,20 +130,20 @@ span.goal {
 }
 
 input#submit {
-	background-color: #fff;
-	width: 200px;
-	height: 35px;
-	color: #af0d0f;
+	background-color: #aaa;
+	height: 60px;
+	color: #fff;
 	font: 25px League Gothic;
 	text-transform: uppercase;
 	border: none;
 	-webkit-border-radius: 5px;
 	cursor: pointer;
-	text-decoration: underline;
+	position: relative;
+	bottom: 20px;
 }
 
 input#submit:hover {
-	background-color: #000;
+	background-color: #af0d0f;
 	color: #fff;
 }
 
