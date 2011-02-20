@@ -129,7 +129,7 @@ span.goal {
 	bottom: 20px;
 }
 
-input#submit {
+button#submit {
 	background-color: #aaa;
 	height: 60px;
 	color: #fff;
@@ -142,13 +142,13 @@ input#submit {
 	bottom: 20px;
 }
 
-input#submit:hover {
+button#submit:hover {
 	background-color: #af0d0f;
 	color: #fff;
 }
 
 table {
-	width: 100%;
+	margin: 0 auto 0 auto;
 }
 
 tr {
@@ -160,13 +160,14 @@ td.month {
 	color: #444;
 	text-transform: uppercase;
 	text-shadow: 1px 0px 0px #ccc;
+	width: 75px;
 }
 
 td.day {
-	font: 20px League Gothic;
-	width: 25px;
+	font: 18px League Gothic;
+	width: 20px;
 	padding: 2px;
-	height: 25px;
+	height: 15px;
 }
 
 td.done {
