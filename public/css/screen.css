@@ -26,14 +26,6 @@ h2 a:hover {
 	text-decoration: underline;
 }
 
-h3 {
-	text-align: center;
-	font: 70px League Gothic;
-	color: #444;
-	text-transform: uppercase;
-	text-shadow: 3px 0px 0px #ccc;
-}
-
 p {
 	font: 15px Helvetica, Arial, sans-serif;
 	text-align: left;
@@ -46,24 +38,24 @@ p {
 
 span#read_more, span#readless {
 	font: 11px Helvetica;
-	text-decoration: none;
-	background-color: #aaa;
-	color: #fff;
+	text-decoration: underline;
+	color: #888;
 	padding: 2px 4px 2px 4px;
 	border-radius: 5px;
 	cursor: pointer;
 }
 
-span#read_more:hover, span#read_less:hover {
+span#read_more:hover {
 	background-color: #888;
+	color: #fff;
 }
 
 p#more_story {
 	display: none;
 }
 
-p.center {
-	
+p#read_more {
+	text-align: center;
 }
 
 p#instructions {
@@ -76,14 +68,8 @@ p#instructions {
 	width: 300px;
 }
 
-div.signup_div {
-	width: 250px;
-	margin: 0 auto 0 auto;
-}
-
-a#signup {
+a.signup_button {
 	text-align: center;
-	height: 40px;
 	padding: 4px 8px 4px 8px;
 	background-color: #af0d0f;
 	color: #fff;
@@ -92,8 +78,14 @@ a#signup {
 	border-radius: 10px;
 }
 
-a#signup:hover {
-	background-color: #ed1315
+div.centered {
+  margin: 0 auto 25px auto;
+  width: 250px;
+}
+
+a.signup_button:hover {
+	background-color: #ed1315;
+	cursor: pointer;
 }
 
 img#screenshot {
@@ -101,21 +93,66 @@ img#screenshot {
 	margin: 0 0 0 0;
 }
 
+/* -=-=-=-=-=-=-=-=- Signup View Styles -=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+#signup {
+  text-align: left;
+  width: 700px;
+  background-color: #ddd;
+  margin: 0 auto 0 auto;
+}
+
 #signup_form {
 	padding: 20px;
 }
 
-input#goal {
-		border: 3px solid #444;
-		font: 30px League Gothic;
-		text-shadow: none;
-		text-transform: uppercase;
-		color: #af0d0f;
-		width: 358px;
-		height: 40px;
-		position: relative;
-		bottom: 20px;
+span.stepnum {
+  background-color: #444;
+  color: #fff;
+  text-shadow: none;
+  padding: 10px 10px 3px 9px;
+  font-size: 25px;
+  position: relative;
+  bottom: 7px;
+  -webkit-border-radius: 20px;
 }
+
+h3 {
+	font: 45px League Gothic;
+	color: #444;
+	text-transform: uppercase;
+	text-shadow: 3px 0px 0px #ccc;
+	margin-top: 20px;
+}
+
+h4 {
+  font: 20px Helvetica, arial, sans-serif;
+  color: #444;
+  position: relative;
+  left: 50px;
+  margin-bottom: 10px;
+}
+
+#signup input[type="text"], input[type="password"] {
+  width: 250px;
+  height: 20px;
+  border: 2px solid #444;
+}
+
+#signup input:focus {
+  border: 2px solid #ed1315;
+}
+
+button#submit {
+  position: relative;
+  left: 50px;
+}
+
+button#submit:hover {
+
+}
+
+/* -=-=-=-=-=-=-=- Calendar View Styles -=-=-=-=-=-=-=-=-=-=- */
 
 span.goal {
 	border: none;
@@ -127,24 +164,6 @@ span.goal {
 	width: 458px;
 	position: relative;
 	bottom: 20px;
-}
-
-button#submit {
-	background-color: #aaa;
-	height: 60px;
-	color: #fff;
-	font: 25px League Gothic;
-	text-transform: uppercase;
-	border: none;
-	-webkit-border-radius: 5px;
-	cursor: pointer;
-	position: relative;
-	bottom: 20px;
-}
-
-button#submit:hover {
-	background-color: #af0d0f;
-	color: #fff;
 }
 
 table {
